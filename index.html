@@ -4,10 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="script.js"></script>
+    <title>Rock Paper Scissors Game</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50vh;
+        }
+        h1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Brush Script MT', cursive;
+            font-size: xxx-large;
+            color: #A64646;
+        }
+        .result-center{
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            font-size: larger;
+        }
+        button{
+            margin: 10px;
+            font-size: 24px;
+            background-color: #F2D9BA;
+            border-radius: 15px;
+  
+            
+        }
+        body{
+            background-color: #F4D05E;
+        }
+    </style>
 </head>
-<body>
+<body>  
+    <h1>Rock Paper Scissors</h1>
+
+    <div id="result" class="result-center"></div>
+    <div class="container">
+    <button id="rock">Rock</button>
+    <button id="paper">Paper</button>
+    <button id="scissors">Scissors</button>
+    </div>  
+    
+    <script src="app.js"></script>
     
 </body>
 </html>
